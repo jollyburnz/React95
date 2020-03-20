@@ -4,6 +4,7 @@ import styled, { css } from '@xstyled/styled-components';
 import { th } from '@xstyled/system';
 
 const NavItem = styled.li`
+  z-index:1;
   list-style: none;
   padding: 3 6;
   background-color: bg;
